@@ -67,6 +67,7 @@ ul {
     border: 2px solid black;
     padding: 10px 20px;
     font-size: 30px;
+    width: -moz-fit-content;
     width: fit-content;
     position: relative;
     z-index: 1;
@@ -116,6 +117,7 @@ ul {
     border: 2px solid black;
     padding: 10px 20px;
     font-size: 30px;
+    width: -moz-fit-content;
     width: fit-content;
     position: relative;
     z-index: 1;
@@ -724,6 +726,7 @@ header .mega-menu ul.links li a i {
     position: relative;
     font-size: 40px;
     margin: auto;
+    width: -moz-fit-content;
     width: fit-content;
 }
 .features .container .box h2::after {
@@ -746,6 +749,7 @@ header .mega-menu ul.links li a i {
 .features .container .box a {
     display: block;
     border: 3px solid transparent;
+    width: -moz-fit-content;
     width: fit-content;
     margin: 0 auto 30px;
     font-weight: bold;
@@ -1456,6 +1460,7 @@ header .mega-menu ul.links li a i {
 }
 .pricing .container .box a {
     display: block;
+    width: -moz-fit-content;
     width: fit-content;
     border: 2px solid var(--main-color);
     border-radius: 6px;
@@ -1564,6 +1569,7 @@ header .mega-menu ul.links li a i {
 .stats h2 {
     font-weight: bold;
     font-size: 40px;
+    width: -moz-fit-content;
     width: fit-content;
     margin: 0 auto 50px;
     position: relative;
