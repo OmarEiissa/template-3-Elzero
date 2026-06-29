@@ -1,12 +1,12 @@
-// The End Of The Year Date To Coundown To
-let counDownDate = new Date("Dec 31, 2023 23:59:59");
+// The End Of The Year Date To Countdown To
+let countDownDate = new Date("Dec 31, 2023 23:59:59");
 
 let counter = setInterval(() => {
   // Get Date Now
   let dateNow = new Date().getTime();
 
-  // Find The Date Difference Between Now And Coundown Date
-  let dateDiff = counDownDate - dateNow;
+  // Find The Date Difference Between Now And Countdown Date
+  let dateDiff = countDownDate - dateNow;
 
   // Get Time Units
   let days = Math.floor(dateDiff / 1000 / 60 / 60 / 24);
@@ -33,7 +33,3 @@ let counter = setInterval(() => {
     time.style.fontSize = "50px";
   }
 }, 1000);
-
-
-
-
